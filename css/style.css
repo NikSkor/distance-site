@@ -480,13 +480,62 @@ body {
     text-decoration: none;
 }
 
-.story-item-add {
+.story-item-add, .story-item{
     display: flex;
     align-items: center;
+    text-decoration: none;
+    margin-bottom: 16px;
 }
 
-.story-item {
+.story-image {
+    background: #F5F5F5;
+    width: 48px;
+    height: 48px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    flex-shrink: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
     display: flex;
     align-items: center;
+    text-align: center;
+    color: #1890FF;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+.story-title {
+    font-size: 14px;
+    line-height: 22px;
+    color: #0050B3;
+    font-weight: 600;
+    width: 100%;
+    display: block;
+}
+
+.story-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #8C8C8C;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.story-image-bg1 {
+    background: url('../img/avatar-2.png') no-repeat center;
+    background-size: cover;
+}
+
+.story-image-bg2 {
+    background: url('../img/avatar-3.png') no-repeat center;
+    background-size: cover;
+}
+
+.story-image-bg3 {
+    background: url('../img/avatar-4.png') no-repeat center;
+    background-size: cover;
 }
 
